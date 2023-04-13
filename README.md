@@ -1,12 +1,13 @@
 ![Logo](https://media-fs.huahuo-cn.tk/api/raw/?path=/CatSero/%E6%9C%AA%E5%91%BD%E5%90%8D%E5%9B%BE%E7%89%87.png)
 
-# CatSero `v2`
+# CatSero `v2 - Free`
 
 [![Codacy Badge](https://app.codacy.com/project/badge/Grade/babcf1e300a44e3684e88840e2b2b803)](https://www.codacy.com/gh/XiaMoHuaHuo-CN/CatSero/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=XiaMoHuaHuo-CN/CatSero&amp;utm_campaign=Badge_Grade)[![Gradle - Build](https://github.com/XiaMoHuaHuo-CN/CatSero/actions/workflows/main-build.yml/badge.svg?branch=main)](https://github.com/XiaMoHuaHuo-CN/CatSero/actions/workflows/main-build.yml)  
 一个基于MiraiMC的QQ群功能&MC功能插件  
 支持的Minecraft版本: 1.8+ **注意: 基于Spigot-1.13.2 API开发，不保证更低版本可用性**  
 开发版构建结果请前往Actions - [Build](https://github.com/XiaMoHuaHuo-CN/CatSero/actions/workflows/dev-build.yml)
-
+- Free版本修改
+    - 修改了 `/src/main/kotlin/moe/xmcn/catsero/utils/timers/NotNPP.kt`，将强制关闭服务器改为建议更换其他编辑器。
 - 发布页
     - MCBBS发布页：[https://www.mcbbs.net/thread-1342417-1-1.html](https://www.mcbbs.net/thread-1342417-1-1.html)
     - KLPBBS发布页：[https://klpbbs.com/thread-43498-1-1.html](https://klpbbs.com/thread-43498-1-1.html)
