@@ -35,13 +35,12 @@ class NotNPP : Runnable {
             && CatSero.findProcess("notepad++.exe")
         ) {
             val fucknpp: List<String> = mutableListOf(
-                "检测到Notepad++(Npp)，为保障您的信息安全，终止服务器！",
-                "如需编辑，请更换其他编辑器：",
+                "检测到Notepad++(Npp)，为保障您的信息安全，建议更换其他编辑器！",
+                "比如：",
                 "- Visual Studio Code：https://code.visualstudio.com/",
                 "- Notepad--：https://gitee.com/cxasm/notepad--"
             )
             Logger.logWARN(fucknpp)
-            CatSero.INSTANCE.server.dispatchCommand(Bukkit.getConsoleSender(), "stop")
         }
     }
 
